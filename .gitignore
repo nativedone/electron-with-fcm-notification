@@ -1,1 +1,6 @@
 node_modules/
+dist/
+.dccache
+.gitignore
+.env
+.DS_Store
