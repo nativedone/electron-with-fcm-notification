@@ -1,8 +1,11 @@
 // This file is required by the index.html file and will
 // be executed in the renderer process for that window.
 // All of the Node.js APIs are available in this process.
+const path = require("path");
+const dotenv = require("dotenv");
 
-require("dotenv").config();
+dotenv.config({ path: path.join(__dirname, ".env") });
+console.log(`path.join(__dirname, ".env")`, path.join(__dirname, ".env"));
 
 const { ipcRenderer } = require("electron");
 const {
