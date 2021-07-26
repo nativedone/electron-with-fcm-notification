@@ -1,4 +1,4 @@
-# electron-fcm-demo
+# Electron FCM Demo
 
 **Demonstration of [electron-push-receiver](https://github.com/MatthieuLemoine/electron-push-receiver).**
 This demo app shows how to make use of Matthieu Lemoine's excellent electron module for receiveing push notifications from Google's Firebase Cloud Messaging (FCM) service.
